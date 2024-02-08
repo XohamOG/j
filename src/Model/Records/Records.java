@@ -6,7 +6,7 @@ public class Records {
     int steps;
     int sleephrs;
     int hydration;
-    int meditation;
+    boolean meditation;
 
 
     public void setsteps(int steps) {
@@ -21,7 +21,7 @@ public class Records {
         this.hydration = hydration;
     }
 
-    public void setmeditation(int meditation) { 
+    public void setmeditation(boolean meditation) { 
         this.meditation = meditation;
     }
    
@@ -37,7 +37,7 @@ public class Records {
         return hydration;
     }
 
-    public int getmeditation() {
+    public boolean getmeditation() {
         return meditation;
     }
 
