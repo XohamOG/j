@@ -40,4 +40,7 @@ public class Records {
     public int getmeditation() {
         return meditation;
     }
+
+
+    fsfknafjsanfjasnfj
 }
